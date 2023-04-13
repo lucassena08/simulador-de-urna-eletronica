@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+html {
+    position: relative;
+    left: 15%;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Bold.ttf') format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Regular.ttf') format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Medium.ttf') format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+.urna-eletronica {
+    display: flex;
+    width: 1423px;
+    height: 758px;
+    /* border: solid 1px #000000; */
+}
+
+.right-container {
+    /* display: flex; */
+    background-color: #45383a;
+    border: solid 1px #000000;
+    width: 673px;
+    height: 746px;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    background-color: #000000;
+    width: 177px;
+    height: 71px;
+    text-align: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+    border: solid 2px #797979;
+}
+
+.button a {
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
+}
+
+.button0 {
+    top: 30%;
+    left: 38%;
+}
+
+.button1 {
+    top: 8%;
+    left: 5%;
+}
+
+.button2 {
+    top: 8%;
+    left: 10%;
+}
+
+.button3 {
+    top: 8%;
+    left: 15%;
+}
+
+.button4 {
+    top: 15%;
+    left: 5%;
+}
+
+.button5 {
+    top: 15%;
+    left: 10%;
+}
+
+.button6 {
+    top: 15%;
+    left: 15%;
+}
+
+.button7 {
+    top: 23%;
+    left: 5%;
+}
+
+.button8 {
+    top: 23%;
+    left: 10%;
+}
+
+.button9 {
+    top: 23%;
+    left: 15%;
+}
+
+.button.branco {
+    border: solid 1px #000000;
+    background-color: white;
+    top: 36%;
+    left: 5%;
+}
+
+.button.corrige {
+    background-color: red;
+    top: 46%;
+    left: 10%;
+}
+
+.button.confirmar {
+    background-color: green;
+    top: 46%;
+    left: 15%;
+}
+
+.branco a,
+.corrige a,
+.confirmar a {
+    color: #000000;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+}
+
+.button.branco,
+.button.corrige,
+.button.confirmar {
+    border: solid 2px #000000;
+}
+
+.left-container {
+    background-color: #d3d3d3;
+    border: solid 1px #000000;
+    width: 736px;
+    height: 746px;
+}
+
+#title {
+    position: relative;
+    top: 10%;
+    left: 5%;
+}
+
+#number {
+    position: relative;
+    top: 20%;
+}
+
+#numbers {
+    position: relative;
+    display: inline-block;
+    top: 17%;
+    width: 195px;
+    height: 133px;
+
+    justify-content: space-between;
+
+    left: 4%;
+}
+
+#numbers .number {
+    border: solid 2px #969696;
+    position: relative;
+    display: inline-block;
+    width: 42%;
+    height: 93%;
+
+    margin-inline-start: 4%;
+
+    text-align: center;
+
+    background-color: #c1c1c1;
+}
+
+#numbers a {
+    position: relative;
+    top: 25%;
+
+    font-size: 60px;
+    color: #000000;
+
+    text-decoration: none;
+}
+
+#singer {
+    position: relative;
+    top: 21%;
+
+    left: 4%;
+}
+
+#music-genre {
+    position: relative;
+    top: 26%;
+
+    left: 4%;
+}
+
+#singer-image {
+    position: relative;
+    display: inline-block;
+    width: 227px;
+    height: 132px;
+    top: 14%;
+    left: 60%;
+
+    border: solid 5px #797979;
+}
+
+#line {
+    position: relative;
+    height: 0px;
+    border: solid 1px #000000;
+    top: 15%;
+
+    left: 4%;
+
+    width: 90%;
+}
+
+#informativo {
+    font-weight: 400;
+    position: relative;
+    top: 16%;
+
+    left: 4%;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+#singer-image img {
+    width: 227px;
+    height: 131px;
+}
